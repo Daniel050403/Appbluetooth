@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                NavigationPage.HasNavigationBar="False"
+               BackgroundImage="fondo4.png"
+             x:Class="Appbluetooth.Mostrar">
+    <Grid RowDefinitions="10*,10*,70*, 10*">
+        <Image Grid.Row="0" Source="logo.png" HeightRequest="60" HorizontalOptions="Start" VerticalOptions="Center"></Image>
+        <Label Grid.Row="1" Text="Usuarios" FontAttributes="Bold" FontSize="Title" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black"></Label>
+        <ContentView Grid.Row="2">
+            <Grid RowDefinitions="10*,10*,10*,10*,10*,10*,10*,10*,10*,10*" ColumnDefinitions="10*,80*,10*">
+
+                <Button Grid.Row="4" Grid.Column="1" Text="usuarios" CornerRadius="10" x:Name="Agregar" BackgroundColor="#3D809B"></Button>
+
+            </Grid>
+        </ContentView>
+    </Grid>
+  
+</ContentPage>
